@@ -1,6 +1,6 @@
 # Reviews
 
-Use this application to fetch users, reviews and pull requests from one repository.
+Use this application to get a random user from a github team.
 
 ## Getting Started
 
