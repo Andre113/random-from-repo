@@ -11,6 +11,7 @@ class Main
 	def run
 		users_to_ignore = ["mobilepicpay"]
 		members = @members_service.members
+		members = members - users_to_ignore
 		selected_user = members.sample
 		puts(selected_user.login)
 	end
